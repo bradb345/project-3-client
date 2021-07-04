@@ -1,24 +1,64 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) GA London React Template
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3 - PEEK
 
-## Update the Proxy Server
+  
 
-By default, the proxy server is set up to point at port 8000, if you need to do so update in `setupProxy.js` where commented.
+## Brief 
 
-## Using NPM
+All groups were given a week to create a fullstack MERN App using a custom build Backend API.
 
-`npm run start` or `npm run dev`  to run the development server
+## Technologies
+-   **Back-End**:
+    
+    -   Express
+    -   MongoDB
+    -   Node.js
+    - Backend API  [here](https://peekback.herokuapp.com/api)
 
-`npm run build` to create a build directory
+-   **Front-End**:
+    
+    -   CSS3 + SASS
+    -   HTML5
+    -   JavaScript (ES6)
+    -   React.js
+    -  Google Fonts
+    -  Bulma
+-   **Dependencies**:
+    
+    -   Axios
+    -   bcrypt
+    -   JSONWebToken
+    -   mongoose-unique-validator
+    -   npm
+    -   react-router-dom
 
-## Using Yarn
+-   **Development Tools**:
+    -   Git + GitHub
+    -   Heroku
+    -   VS Code
 
-`yarn start` or `yarn dev`  to run the development server
+## Deployment 
+click [here](https://peek3.netlify.app) to see the deployed App.
+click [here](https://github.com/bradb345/project-3-server) to see the Server Github repository
+click [here](https://github.com/bradb345/project-3-client) to see the Client Github repository
 
-`yarn build` to create a build directory
+## Members
 
-### ⚠️
+Craig Clement - [Github](https://github.com/CraigClem)
+Dan Fullerton - [Github](https://github.com/sirdantheawesome)
+Bradley Bernard - [Github](https://github.com/bradb345)
 
-To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`, rename the `.env.example` to `.env` and restart your development server. Note this will only change the behaviour of certain linter errors to now be warnings, and is added just to allow your code to compile in development. These errors should still be fixed and other errors will still result in the code being unable to compile
+## Approach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- After a short brainstorming session we decided to create a Social Media App that was similar to Facebook and Instagram but rewarded the user with points for post interaction.
+
+### Layout
+
+- We put together a rough sketch of what the site will look like with a rough idea of how it will function.
+
+Login
+![Login](images/login.png)
+Main feed
+![feed](images/feed.png)
+Profile feed
+![profile](images/profile.png)
 
