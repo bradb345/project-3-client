@@ -326,11 +326,15 @@ Profile feed
 
 ### Key Learning
 
-- MERN stack work flow
-- Github collaboration 
+- This was the first time using the MERN stack work flow. Learning how Mongoose and Express work together was key to making this project function. 
+- Github collaboration is a new new tool in my coding toolbelt. 
 - Building a Backend API and connecting it to the Frontend.
 
 ### Future Improvements 
 - I’d like to add cloudinary functionality so that users could upload pictures straight to the site rather than use URLs.
 - Add a peek coin market place where users could spend their peek coin.
 - Add peek coin gifting.
+
+### Bugs 
+
+- In our testing, we didnt encounter any bugs. 
